@@ -89,6 +89,7 @@ button:hover {
 
 button:active {
   transform: scale(.97);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.6);
 }
 
 button:focus {
@@ -144,5 +145,12 @@ button:focus {
     background: linear-gradient(to bottom right, #424242, #979797, #eef0f1);
     color: rgb(12, 12, 12, .7);
     box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.6);
+  }
+
+  .operator {
+    
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+  
   }
 }
