@@ -80,7 +80,7 @@ button {
   cursor: pointer;
   background: linear-gradient(to bottom right, #424242, #979797, #eef0f1);
   color: rgb(12, 1, 1);
-  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
 }
 
 button:hover {
@@ -98,9 +98,10 @@ button:focus {
 .operator {
   background: grey;
   background: linear-gradient(to bottom right, #244b5c, #43798b, #7ed2f7);
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   font-size: 30px;
   border: solid .75px rgb(110, 149, 184);
+
 }
 
 .clear {
@@ -130,5 +131,18 @@ button:focus {
 
   .calculator {
     width: 95%;
+  }
+
+  button {
+    min-height: 35px;
+    min-width: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    border: solid .75px rgb(189, 188, 188);
+    border-radius: 6px;
+    cursor: pointer;
+    background: linear-gradient(to bottom right, #424242, #979797, #eef0f1);
+    color: rgb(12, 12, 12, .7);
+    box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.6);
   }
 }
